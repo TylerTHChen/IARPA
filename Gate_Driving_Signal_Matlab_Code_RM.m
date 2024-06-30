@@ -45,16 +45,23 @@ sym1 = [x1 x2 x3 x4 x0];
 plot(square(2 * pi * (0:0.01:1) + pi, d1))
 
 % saving results
-GDS = [sym0, sym1];
-fname = sprintf('GDS_%d_d%d_%d_d%d_%d_d%d_%d_%.1fu_%dk.csv', ...
+GDS_1 = [sym1];
+fname = sprintf('GDS_1_%d_d%d_%d_d%d_%d_d%d_%d_%.1fu_%dk.csv', ...
     round(d1), round(p_d1*100), round(d2), round(p_d2*100), ...
     round(d3), round(p_d2*100), round(d4), ...
     T0*1e6, round(fsym/1e3));
-writematrix(GDS',fname)
+writematrix(GDS_1',fname)
+
+GDS_0 = [sym0];
+fname = sprintf('GDS_0_%d_d%d_%d_d%d_%d_d%d_%d_%.1fu_%dk.csv', ...
+    round(d1), round(p_d1*100), round(d2), round(p_d2*100), ...
+    round(d3), round(p_d2*100), round(d4), ...
+    T0*1e6, round(fsym/1e3));
+writematrix(GDS_0',fname)
 
 % Q modulation control signal
 Qmod = [ones(length(x1) + length(x2) + length(x3) + length(x4), 1); zeros(length(x0), 1)];
-Qmod2 = [Qmod; Qmod];
+Qmod2 = [Qmod];
 fname = sprintf('Qmod_%.1fu_%dk_%d.csv', T0*1e6, round(fsym/1e3), length(Qmod2));
 writematrix(Qmod2,fname);
 
