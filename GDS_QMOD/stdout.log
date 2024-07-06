@@ -1,0 +1,99 @@
+Running in Lattice mode
+
+                               Synplify Pro (R) 
+
+                Version U-2023.03L-SP1 for win64 - Aug 10, 2023 
+
+                    Copyright (c) 1988 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Starting:    C:\lscc\diamond\3.13\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.13\synpbase
+Hostname:    TYLER
+Date:        Fri Jul  5 17:15:58 2024
+Version:     U-2023.03L-SP1
+
+Arguments:   -product synplify_base -batch GDS_QMOD_4_GDS_QMOD_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+log file: "C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\GDS_QMOD\GDS_QMOD_4_GDS_QMOD.srr"
+Running: GDS_QMOD in foreground
+
+Running proj_1|GDS_QMOD
+
+Running Flow: compile (Compile) on proj_1|GDS_QMOD
+# Fri Jul  5 17:15:59 2024
+
+Running Flow: compile_flow (Compile Process) on proj_1|GDS_QMOD
+# Fri Jul  5 17:15:59 2024
+
+Running: compiler (Compile Input) on proj_1|GDS_QMOD
+# Fri Jul  5 17:15:59 2024
+Copied C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\GDS_QMOD\synwork\GDS_QMOD_4_GDS_QMOD_comp.srs to C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\GDS_QMOD\GDS_QMOD_4_GDS_QMOD.srs
+
+compiler completed
+# Fri Jul  5 17:16:02 2024
+
+Return Code: 0
+Run Time:00h:00m:01s
+
+Running: multi_srs_gen (Multi-srs Generator) on proj_1|GDS_QMOD
+# Fri Jul  5 17:16:02 2024
+
+multi_srs_gen completed
+# Fri Jul  5 17:16:02 2024
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\GDS_QMOD\synwork\GDS_QMOD_4_GDS_QMOD_mult.srs to C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\GDS_QMOD\GDS_QMOD_4_GDS_QMOD.srs
+Copied C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\GDS_QMOD\GDS_QMOD_4_GDS_QMOD.srr to C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\GDS_QMOD\GDS_QMOD_4_GDS_QMOD.srf
+Complete: Compile Process on proj_1|GDS_QMOD
+
+Running: premap (Premap) on proj_1|GDS_QMOD
+# Fri Jul  5 17:16:02 2024
+
+premap completed with warnings
+# Fri Jul  5 17:16:07 2024
+
+Return Code: 1
+Run Time:00h:00m:05s
+Complete: Compile on proj_1|GDS_QMOD
+
+Running Flow: map (Map) on proj_1|GDS_QMOD
+# Fri Jul  5 17:16:07 2024
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on proj_1|GDS_QMOD
+# Fri Jul  5 17:16:07 2024
+Copied C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\GDS_QMOD\synwork\GDS_QMOD_4_GDS_QMOD_m.srm to C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\GDS_QMOD\GDS_QMOD_4_GDS_QMOD.srm
+
+fpga_mapper completed with warnings
+# Fri Jul  5 17:16:14 2024
+
+Return Code: 1
+Run Time:00h:00m:07s
+Complete: Map on proj_1|GDS_QMOD
+Copied C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\GDS_QMOD\GDS_QMOD_4_GDS_QMOD.srr to C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\GDS_QMOD\GDS_QMOD_4_GDS_QMOD.srf
+Complete: Logic Synthesis on proj_1|GDS_QMOD
+TCL script complete: "GDS_QMOD_4_GDS_QMOD_synplify.tcl"
+exit status=0
+exit status=0
+Save changes for project:
+C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\GDS_QMOD\proj_1.prj
+batch mode default:no

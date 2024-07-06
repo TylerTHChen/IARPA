@@ -1,0 +1,17 @@
+#Start recording tcl command: 7/5/2024 17:15:49
+#Project Location: C:/Users/tyler_hyposvu/OneDrive - UW-Madison/Research/IARPA/QMOD_GDS; Project name: GDS_QMOD_4
+prj_project new -name "GDS_QMOD_4" -impl "GDS_QMOD" -dev LCMXO3LF-6900C-5BG256C -synthesis "synplify"
+prj_src add "C:/Users/tyler_hyposvu/OneDrive - UW-Madison/Research/IARPA/QMOD_GDS/waves.sv"
+prj_project save
+prj_run Synthesis -impl GDS_QMOD
+prj_run Map -impl GDS_QMOD
+prj_run PAR -impl GDS_QMOD
+prj_run Export -impl GDS_QMOD
+pgr_project save "C:/Users/tyler_hyposvu/OneDrive - UW-Madison/Research/IARPA/QMOD_GDS/GDS_QMOD/GDS_QMOD.xcf"
+prj_src add -exclude "C:/Users/tyler_hyposvu/OneDrive - UW-Madison/Research/IARPA/QMOD_GDS/GDS_QMOD/GDS_QMOD.xcf"
+prj_src enable "C:/Users/tyler_hyposvu/OneDrive - UW-Madison/Research/IARPA/QMOD_GDS/GDS_QMOD/GDS_QMOD.xcf"
+pgr_program run
+pgr_project save "C:/Users/tyler_hyposvu/OneDrive - UW-Madison/Research/IARPA/QMOD_GDS/GDS_QMOD/GDS_QMOD.xcf"
+prj_project save
+prj_project close
+#Stop recording: 7/5/2024 17:19:55

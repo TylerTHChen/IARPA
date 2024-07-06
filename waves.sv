@@ -1,16 +1,16 @@
 module waves(
-    input clk // clock
-    output GDS // GDS Wave
-    output QMOD // QMOD Wave
-)
+    input clk, // clock
+    output logic GDS, // GDS Wave
+    output logic QMOD // QMOD Wave
+);
 
     // Define parameters for the size of waveforms and bit sequence
-    parameter BIT = 2498 
-    parameter WAVE = 8
+    parameter BIT = 2498; 
+    parameter WAVE = 8;
 
     // Sequence
     logic [WAVE-1:0] seq;
-    seq = 8'b1001_0101;
+    assign seq = 8'b1001_0101;
 
     logic bit0[0:BIT-1];
     logic bit1[0:BIT-1];

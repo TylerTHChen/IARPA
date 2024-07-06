@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "GDS_QMOD_4_GDS_QMOD.log"
+-o "GDS_QMOD_4_GDS_QMOD.csv"
+-pr "GDS_QMOD_4_GDS_QMOD.prf"

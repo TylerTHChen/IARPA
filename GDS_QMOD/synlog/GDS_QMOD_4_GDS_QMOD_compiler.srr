@@ -1,0 +1,129 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03L-SP1
+Install: C:\lscc\diamond\3.13\synpbase
+OS: Windows 10 or later
+Hostname: TYLER
+
+Implementation : GDS_QMOD
+Synopsys HDL Compiler, Version comp202303synp1, Build 155R, Built Aug 10 2023 09:42:17, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03L-SP1
+Install: C:\lscc\diamond\3.13\synpbase
+OS: Windows 10 or later
+Hostname: TYLER
+
+Implementation : GDS_QMOD
+Synopsys Verilog Compiler, Version comp202303synp1, Build 155R, Built Aug 10 2023 09:42:17, @
+
+@N|Running in 64-bit mode
+@I::"C:\lscc\diamond\3.13\synpbase\lib\lucent\machxo3lf.v" (library work)
+@I::"C:\lscc\diamond\3.13\synpbase\lib\lucent\pmi_def.v" (library work)
+@I::"C:\lscc\diamond\3.13\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\diamond\3.13\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.13\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv" (library work)
+Verilog syntax check successful!
+Selecting top level module waves
+@N: CG364 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":1:7:1:11|Synthesizing module waves in library work.
+Opening data file GDS_0_50_d15_35_d10_30_d10_27_1.0u_100k.csv from directory C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS
+Opening data file GDS_1_50_d15_35_d10_30_d10_27_1.0u_100k.csv from directory C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS
+Opening data file Qmod_1.0u_100k_2498.csv from directory C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS
+@W: CG532 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":20:4:20:10|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+@W: CG1340 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":28:12:28:19|Index into variable seq could be out of range ; a simulation mismatch is possible.
+Running optimization stage 1 on waves .......
+Finished optimization stage 1 on waves (CPU Time 0h:00m:00s, Memory Used current: 106MB peak: 107MB)
+Running optimization stage 2 on waves .......
+@W: CL138 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Removing register 'wave_cnt' because it is only assigned 0 or its original value.
+@W: CL260 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Pruning register bit 31 of bit_cnt[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[12] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[13] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[14] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[15] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[16] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[17] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[18] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[19] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[20] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[21] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[22] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[23] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[24] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[25] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[26] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[27] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[28] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[29] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[30] is always 0.
+@W: CL279 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Pruning register bits 30 to 12 of bit_cnt[30:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 2 on waves (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 107MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\GDS_QMOD\synwork\layer0.duruntime
+
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 107MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Jul  5 17:16:00 2024
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03L-SP1
+Install: C:\lscc\diamond\3.13\synpbase
+OS: Windows 10 or later
+Hostname: TYLER
+
+Implementation : GDS_QMOD
+Synopsys Synopsys Netlist Linker, Version comp202303synp1, Build 155R, Built Aug 10 2023 09:42:17, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Jul  5 17:16:00 2024
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\GDS_QMOD\synwork\GDS_QMOD_4_GDS_QMOD_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 23MB peak: 23MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Jul  5 17:16:00 2024
+
+###########################################################]

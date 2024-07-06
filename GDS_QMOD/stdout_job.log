@@ -1,0 +1,80 @@
+{
+"Synplify Pro (R) Job Log" : {
+	"Date" : "17:16:14    05-Jul-2024",
+	"Working Directory" : "C:/Users/tyler_hyposvu/OneDrive - UW-Madison/Research/IARPA/QMOD_GDS/GDS_QMOD",
+	"Install" : "C:/lscc/diamond/3.13/synpbase"
+},
+"GDS_QMOD" :{
+   "Start Time" : "17:15:59",
+   "Runtime" : "15s",
+   "Executable Run Time" : "13s",
+   "synthesis" : {
+      "Start Time" : "17:15:59",
+      "Runtime" : "15s",
+      "Executable Run Time" : "13s",
+      "compile" : {
+         "Start Time" : "17:15:59",
+         "Runtime" : "08s",
+         "Executable Run Time" : "06s",
+         "compile_flow" : {
+            "Start Time" : "17:15:59",
+            "Runtime" : "03s",
+            "Executable Run Time" : "01s",
+            "compiler" : {
+               "executable" : "bin64/c_hdl.exe",
+               "Run Directory" : "C:/Users/tyler_hyposvu/OneDrive - UW-Madison/Research/IARPA/QMOD_GDS/GDS_QMOD",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "17:15:59",
+               "Run Time" : "03s",
+               "Exe Run Time" : "01s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            },
+            "multi_srs_gen" : {
+               "executable" : "bin64/syn_nfilter.exe",
+               "Run Directory" : "C:/Users/tyler_hyposvu/OneDrive - UW-Madison/Research/IARPA/QMOD_GDS/GDS_QMOD",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "17:16:02",
+               "Run Time" : "00s",
+               "Exe Run Time" : "00s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            }
+         },
+         "premap" : {
+            "executable" : "bin64/m_gen_lattice.exe",
+            "Run Directory" : "C:/Users/tyler_hyposvu/OneDrive - UW-Madison/Research/IARPA/QMOD_GDS/GDS_QMOD",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "17:16:02",
+            "Run Time" : "05s",
+            "Exe Run Time" : "05s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      },
+      "map" : {
+         "Start Time" : "17:16:07",
+         "Runtime" : "07s",
+         "Executable Run Time" : "07s",
+         "fpga_mapper" : {
+            "executable" : "bin64/m_gen_lattice.exe",
+            "Run Directory" : "C:/Users/tyler_hyposvu/OneDrive - UW-Madison/Research/IARPA/QMOD_GDS/GDS_QMOD",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "17:16:07",
+            "Run Time" : "07s",
+            "Exe Run Time" : "07s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      }
+   }
+}
+}

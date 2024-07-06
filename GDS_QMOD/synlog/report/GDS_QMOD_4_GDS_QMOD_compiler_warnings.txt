@@ -1,0 +1,6 @@
+@W: CG532 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":20:4:20:10|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+@W: CG1340 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":28:12:28:19|Index into variable seq could be out of range ; a simulation mismatch is possible.
+@W: CL138 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Removing register 'wave_cnt' because it is only assigned 0 or its original value.
+@W: CL260 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Pruning register bit 31 of bit_cnt[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Pruning register bits 30 to 12 of bit_cnt[30:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+

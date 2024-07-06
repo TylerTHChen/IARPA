@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.13\synpbase\bin64\syn_nfilter.exe  -link  -top  waves  -multisrs  "C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\GDS_QMOD\synwork\GDS_QMOD_4_GDS_QMOD_comp.srs"  -osyn  "C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\GDS_QMOD\synwork\GDS_QMOD_4_GDS_QMOD_mult.srs"  -log  "C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\GDS_QMOD\synlog\GDS_QMOD_4_GDS_QMOD_multi_srs_gen.srr" 
+relcom:..\..\..\..\..\..\..\..\lscc\diamond\3.13\synpbase\bin64\syn_nfilter.exe -link -top waves -multisrs "C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\GDS_QMOD\synwork\GDS_QMOD_4_GDS_QMOD_comp.srs" -osyn "C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\GDS_QMOD\synwork\GDS_QMOD_4_GDS_QMOD_mult.srs" -log "C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\GDS_QMOD\synlog\GDS_QMOD_4_GDS_QMOD_multi_srs_gen.srr"
+rc:0 success:1 runtime:0
+file:..\synwork\gds_qmod_4_gds_qmod_comp.srs|io:i|time:1720217760|size:13583|exec:0|csum:FC65281B9FF7275233BABC11D71A2E50
+file:..\synwork\gds_qmod_4_gds_qmod_mult.srs|io:o|time:1720217762|size:13545|exec:0|csum:
+file:..\synlog\gds_qmod_4_gds_qmod_multi_srs_gen.srr|io:o|time:1720217762|size:1040|exec:0|csum:
+file:..\..\..\..\..\..\..\..\lscc\diamond\3.13\synpbase\bin64\syn_nfilter.exe|io:i|time:1691682856|size:10600960|exec:1|csum:6BAEBE966B12EE4A1CCC452B6603E0B1

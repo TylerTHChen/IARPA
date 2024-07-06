@@ -1,0 +1,231 @@
+
+Loading design for application trce from file gds_qmod_4_gds_qmod_map.ncd.
+Design name: waves
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO3LF-6900C
+Package:     CABGA256
+Performance: 5
+Loading device for application trce from file 'xo3c6900.nph' in environment: C:/lscc/diamond/3.13/ispfpga.
+Package Status:                     Final          Version 1.17.
+Performance Hardware Data Status:   Final          Version 37.5.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.13.0.56.2
+Fri Jul 05 17:16:19 2024
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o GDS_QMOD_4_GDS_QMOD.tw1 -gui GDS_QMOD_4_GDS_QMOD_map.ncd GDS_QMOD_4_GDS_QMOD.prf 
+Design file:     gds_qmod_4_gds_qmod_map.ncd
+Preference file: gds_qmod_4_gds_qmod.prf
+Device,speed:    LCMXO3LF-6900C,5
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+Report Type:     based on TRACE automatically generated preferences
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Preference: FREQUENCY NET "clk_c" 164.663000 MHz ;
+            208 items scored, 23 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Error: The following path exceeds requirements by 0.864ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              bit_cnt[3]  (from clk_c +)
+   Destination:    SP8KC      Port           GDS_2_0_0(ASIC)  (to clk_c +)
+
+   Delay:               6.738ns  (32.9% logic, 67.1% route), 5 logic levels.
+
+ Constraint Details:
+
+      6.738ns physical path delay SLICE_5 to GDS_2_0_0 exceeds
+      6.073ns delay constraint less
+      0.199ns CE_SET requirement (totaling 5.874ns) by 0.864ns
+
+ Physical Path Details:
+
+      Data path SLICE_5 to GDS_2_0_0:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.409    SLICE_5.CLK to     SLICE_5.Q0 SLICE_5 (from clk_c)
+ROUTE         3   e 1.030     SLICE_5.Q0 to    SLICE_10.A1 bit_cnt[3]
+CTOF_DEL    ---     0.452    SLICE_10.A1 to    SLICE_10.F1 SLICE_10
+ROUTE         2   e 0.401    SLICE_10.F1 to    SLICE_10.A0 N_5_1
+CTOF_DEL    ---     0.452    SLICE_10.A0 to    SLICE_10.F0 SLICE_10
+ROUTE         1   e 1.030    SLICE_10.F0 to     SLICE_9.A1 GDS7lt8
+CTOF_DEL    ---     0.452     SLICE_9.A1 to     SLICE_9.F1 SLICE_9
+ROUTE         2   e 1.030     SLICE_9.F1 to     SLICE_7.A1 GDS7lt10
+CTOF_DEL    ---     0.452     SLICE_7.A1 to     SLICE_7.F1 SLICE_7
+ROUTE         3   e 1.030     SLICE_7.F1 to   GDS_2_0_0.CE GDS7 (to clk_c)
+                  --------
+                    6.738   (32.9% logic, 67.1% route), 5 logic levels.
+
+Warning: 144.155MHz is the maximum frequency for this preference.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "clk_c" 164.663000 MHz ;  |  164.663 MHz|  144.155 MHz|   5 *
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+1 preference(marked by "*" above) not met.
+
+----------------------------------------------------------------------------
+Critical Nets                           |   Loads|  Errors| % of total
+----------------------------------------------------------------------------
+GDS7lt8                                 |       1|      23|    100.00%
+                                        |        |        |
+GDS7lt10                                |       2|      23|    100.00%
+                                        |        |        |
+N_5_1                                   |       2|      20|     86.96%
+                                        |        |        |
+GDS7_i                                  |       7|      14|     60.87%
+                                        |        |        |
+bit_cnt[4]                              |       3|      10|     43.48%
+                                        |        |        |
+bit_cnt[3]                              |       3|      10|     43.48%
+                                        |        |        |
+GDS7                                    |       3|       9|     39.13%
+                                        |        |        |
+----------------------------------------------------------------------------
+
+
+Clock Domains Analysis
+------------------------
+
+Found 1 clocks:
+
+Clock Domain: clk_c   Source: clk.PAD   Loads: 9
+   Covered under: FREQUENCY NET "clk_c" 164.663000 MHz ;
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 23  Score: 8325
+Cumulative negative slack: 8325
+
+Constraints cover 208 paths, 1 nets, and 89 connections (97.80% coverage)
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.13.0.56.2
+Fri Jul 05 17:16:19 2024
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o GDS_QMOD_4_GDS_QMOD.tw1 -gui GDS_QMOD_4_GDS_QMOD_map.ncd GDS_QMOD_4_GDS_QMOD.prf 
+Design file:     gds_qmod_4_gds_qmod_map.ncd
+Preference file: gds_qmod_4_gds_qmod.prf
+Device,speed:    LCMXO3LF-6900C,M
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Preference: FREQUENCY NET "clk_c" 164.663000 MHz ;
+            208 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.447ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              bit_cnt[11]  (from clk_c +)
+   Destination:    FF         Data in        bit_cnt[11]  (to clk_c +)
+
+   Delay:               0.434ns  (53.9% logic, 46.1% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.434ns physical path delay SLICE_1 to SLICE_1 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint requirement (totaling -0.013ns) by 0.447ns
+
+ Physical Path Details:
+
+      Data path SLICE_1 to SLICE_1:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133    SLICE_1.CLK to     SLICE_1.Q0 SLICE_1 (from clk_c)
+ROUTE         5   e 0.199     SLICE_1.Q0 to     SLICE_1.A0 bit_cnt[11]
+CTOF_DEL    ---     0.101     SLICE_1.A0 to     SLICE_1.F0 SLICE_1
+ROUTE         1   e 0.001     SLICE_1.F0 to    SLICE_1.DI0 bit_cnt_1[11] (to clk_c)
+                  --------
+                    0.434   (53.9% logic, 46.1% route), 2 logic levels.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference(MIN Delays)                  |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "clk_c" 164.663000 MHz ;  |     0.000 ns|     0.447 ns|   2  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+Clock Domains Analysis
+------------------------
+
+Found 1 clocks:
+
+Clock Domain: clk_c   Source: clk.PAD   Loads: 9
+   Covered under: FREQUENCY NET "clk_c" 164.663000 MHz ;
+
+
+Timing summary (Hold):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 208 paths, 1 nets, and 89 connections (97.80% coverage)
+
+
+
+Timing summary (Setup and Hold):
+---------------
+
+Timing errors: 23 (setup), 0 (hold)
+Score: 8325 (setup), 0 (hold)
+Cumulative negative slack: 8325 (8325+0)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+

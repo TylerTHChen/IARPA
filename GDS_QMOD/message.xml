@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="MapVerilogSimFile">
+        <Message>
+            <ID>35400250</ID>
+            <Severity>Info</Severity>
+            <Dynamic>0</Dynamic>
+        </Message>
+    </Task>
+    <Task name="IBIS">
+        <Message>
+            <ID>1191031</ID>
+            <Severity>Info</Severity>
+        </Message>
+    </Task>
+    <Task name="Jedecgen">
+        <Message>
+            <ID>1009992</ID>
+            <Severity>Info</Severity>
+            <Dynamic> SW_XO3D_SECURITY_ENCRYPTION *NOT* controlled by xo3c00f.acd ###</Dynamic>
+        </Message>
+        <Message>
+            <ID>1009992</ID>
+            <Severity>Info</Severity>
+            <Dynamic> SW_XO3D_SECURITY_ENCRYPTION license_securityIP OK</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Translate">
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>WAVE</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BIT</Dynamic>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>GDS_2_0_0_DO1</Dynamic>
+            <Navigation>GDS_2_0_0_DO1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>GDS_2_0_0_DO2</Dynamic>
+            <Navigation>GDS_2_0_0_DO2</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>GDS_2_0_0_DO3</Dynamic>
+            <Navigation>GDS_2_0_0_DO3</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>GDS_2_0_0_DO4</Dynamic>
+            <Navigation>GDS_2_0_0_DO4</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>GDS_2_0_0_DO5</Dynamic>
+            <Navigation>GDS_2_0_0_DO5</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>GDS_2_0_0_DO6</Dynamic>
+            <Navigation>GDS_2_0_0_DO6</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>GDS_2_0_0_DO7</Dynamic>
+            <Navigation>GDS_2_0_0_DO7</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>GDS_2_0_0_DO8</Dynamic>
+            <Navigation>GDS_2_0_0_DO8</Navigation>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>8</Dynamic>
+        </Message>
+    </Task>
+    <Task name="TimingSimFileVlg">
+        <Message>
+            <ID>35400250</ID>
+            <Severity>Info</Severity>
+            <Dynamic>0</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG532 :&quot;C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv&quot;:20:4:20:10|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur</Dynamic>
+            <Navigation>CG532</Navigation>
+            <Navigation>C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG1340 :&quot;C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv&quot;:28:12:28:19|Index into variable seq could be out of range ; a simulation mismatch is possible.</Dynamic>
+            <Navigation>CG1340</Navigation>
+            <Navigation>C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Index into variable seq could be out of range ; a simulation mismatch is possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL138 :&quot;C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv&quot;:31:4:31:9|Removing register 'wave_cnt' because it is only assigned 0 or its original value.</Dynamic>
+            <Navigation>CL138</Navigation>
+            <Navigation>C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv</Navigation>
+            <Navigation>31</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>31</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Removing register 'wave_cnt' because it is only assigned 0 or its original value.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv&quot;:31:4:31:9|Pruning register bit 31 of bit_cnt[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv</Navigation>
+            <Navigation>31</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>31</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning register bit 31 of bit_cnt[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv&quot;:31:4:31:9|Pruning register bits 30 to 12 of bit_cnt[30:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv</Navigation>
+            <Navigation>31</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>31</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning register bits 30 to 12 of bit_cnt[30:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;c:\users\tyler_hyposvu\onedrive - uw-madison\research\iarpa\qmod_gds\waves.sv&quot;:31:4:31:9|Found inferred clock waves|clk which controls 14 sequential elements including bit_cnt[11:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>c:\users\tyler_hyposvu\onedrive - uw-madison\research\iarpa\qmod_gds\waves.sv</Navigation>
+            <Navigation>31</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>31</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Found inferred clock waves|clk which controls 14 sequential elements including bit_cnt[11:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved.</Dynamic>
+            <Navigation>FX474</Navigation>
+            <Navigation>User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock waves|clk with period 10.00ns. Please declare a user-defined clock on port clk.</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock waves|clk with period 10.00ns. Please declare a user-defined clock on port clk.</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

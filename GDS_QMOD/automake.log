@@ -1,0 +1,166 @@
+
+ibisgen "GDS_QMOD_4_GDS_QMOD.pad" "C:/lscc/diamond/3.13/cae_library/ibis/machxo3l.ibs"   
+IBIS Models Generator: Lattice Diamond (64-bit) 3.13.0.56.2
+
+Fri Jul 05 17:16:30 2024
+
+Comp: GDS
+ Site: P9
+ Type: OUT
+ IO_TYPE=LVCMOS25 
+ DRIVE=8mA 
+ PULL=DOWN 
+ SLEW=SLOW 
+-----------------------
+Comp: QMOD
+ Site: T9
+ Type: OUT
+ IO_TYPE=LVCMOS25 
+ DRIVE=8mA 
+ PULL=DOWN 
+ SLEW=SLOW 
+-----------------------
+Comp: clk
+ Site: L2
+ Type: IN
+ IO_TYPE=LVCMOS25 
+ PULL=DOWN 
+ CLAMP=ON 
+ HYSTERESIS=SMALL 
+-----------------------
+Created design models.
+
+
+Generating: C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\GDS_QMOD\IBIS\GDS_QMOD_4_GDS_QMOD.ibs
+
+
+    <postMsg mid="1191031" type="Info"    dynamic="0" navigation="0"  />
+
+ldbanno "GDS_QMOD_4_GDS_QMOD.ncd" -n Verilog  -o "GDS_QMOD_4_GDS_QMOD_vo.vo"         -w -neg
+ldbanno: version Diamond (64-bit) 3.13.0.56.2
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
+
+Writing a Verilog netlist using the orca library type based on the GDS_QMOD_4_GDS_QMOD design file.
+
+
+Loading design for application ldbanno from file GDS_QMOD_4_GDS_QMOD.ncd.
+Design name: waves
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO3LF-6900C
+Package:     CABGA256
+Performance: 5
+Loading device for application ldbanno from file 'xo3c6900.nph' in environment: C:/lscc/diamond/3.13/ispfpga.
+Package Status:                     Final          Version 1.17.
+Performance Hardware Data Status:   Final          Version 37.5.
+Converting design GDS_QMOD_4_GDS_QMOD.ncd into .ldb format.
+Loading preferences from gds_qmod_4_gds_qmod.prf.
+Writing Verilog netlist to file GDS_QMOD_4_GDS_QMOD_vo.vo
+Writing SDF timing to file GDS_QMOD_4_GDS_QMOD_vo.sdf
+    <postMsg mid="35400250" type="Info"    dynamic="1" navigation="0" arg0="0"  />
+Total CPU Time: 0 secs 
+Total REAL Time: 0 secs 
+Peak Memory Usage: 58 MB
+
+tmcheck -par "GDS_QMOD_4_GDS_QMOD.par" 
+
+bitgen -f "GDS_QMOD_4_GDS_QMOD.t2b" -w "GDS_QMOD_4_GDS_QMOD.ncd"  -jedec "GDS_QMOD_4_GDS_QMOD.prf"
+
+
+BITGEN: Bitstream Generator Diamond (64-bit) 3.13.0.56.2
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
+
+
+Loading design for application Bitgen from file GDS_QMOD_4_GDS_QMOD.ncd.
+Design name: waves
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO3LF-6900C
+Package:     CABGA256
+Performance: 5
+Loading device for application Bitgen from file 'xo3c6900.nph' in environment: C:/lscc/diamond/3.13/ispfpga.
+Package Status:                     Final          Version 1.17.
+Performance Hardware Data Status:   Final          Version 37.5.
+
+Running DRC.
+DRC detected 0 errors and 0 warnings.
+Reading Preference File from GDS_QMOD_4_GDS_QMOD.prf.
+    <postMsg mid="1009992" type="Info"    dynamic="1" navigation="0" arg0=" SW_XO3D_SECURITY_ENCRYPTION *NOT* controlled by xo3c00f.acd ###"  />
+    <postMsg mid="1009992" type="Info"    dynamic="1" navigation="0" arg0=" SW_XO3D_SECURITY_ENCRYPTION license_securityIP OK"  />
+
+Preference Summary:
++---------------------------------+---------------------------------+
+|  Preference                     |  Current Setting                |
++---------------------------------+---------------------------------+
+|                         RamCfg  |                        Reset**  |
++---------------------------------+---------------------------------+
+|                     MCCLK_FREQ  |                         2.08**  |
++---------------------------------+---------------------------------+
+|                  CONFIG_SECURE  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                          INBUF  |                           ON**  |
++---------------------------------+---------------------------------+
+|                      JTAG_PORT  |                       ENABLE**  |
++---------------------------------+---------------------------------+
+|                       SDM_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                 SLAVE_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                MASTER_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                       I2C_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|        MUX_CONFIGURATION_PORTS  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                  CONFIGURATION  |                          CFG**  |
++---------------------------------+---------------------------------+
+|                COMPRESS_CONFIG  |                           ON**  |
++---------------------------------+---------------------------------+
+|                        MY_ASSP  |                          OFF**  |
++---------------------------------+---------------------------------+
+|               ONE_TIME_PROGRAM  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                 ENABLE_TRANSFR  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                  SHAREDEBRINIT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|            BACKGROUND_RECONFIG  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                 DUALBOOTGOLDEN  |                     INTERNAL**  |
++---------------------------------+---------------------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+
+Creating bit map...
+ 
+Bitstream Status: Final           Version 1.95.
+ 
+Saving bit stream in "GDS_QMOD_4_GDS_QMOD.jed".
+ 
+===========
+UFM Summary.
+===========
+UFM Size:        2046 Pages (128*2046 Bits).
+UFM Utilization: General Purpose Flash Memory.
+ 
+Available General Purpose Flash Memory: 2046 Pages (Page 0 to Page 2045).
+Initialized UFM Pages:                     0 Page.
+ 
+=========
+Padding summary
+=========
+Padded 1231360 bits for this design
+
+
+Total CPU Time: 2 secs 
+Total REAL Time: 4 secs 
+Peak Memory Usage: 290 MB

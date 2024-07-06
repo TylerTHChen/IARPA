@@ -1,0 +1,39 @@
+Selecting top level module waves
+@N: CG364 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":1:7:1:11|Synthesizing module waves in library work.
+Opening data file GDS_0_50_d15_35_d10_30_d10_27_1.0u_100k.csv from directory C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS
+Opening data file GDS_1_50_d15_35_d10_30_d10_27_1.0u_100k.csv from directory C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS
+Opening data file Qmod_1.0u_100k_2498.csv from directory C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS
+@W: CG532 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":20:4:20:10|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+@W: CG1340 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":28:12:28:19|Index into variable seq could be out of range ; a simulation mismatch is possible.
+Running optimization stage 1 on waves .......
+Finished optimization stage 1 on waves (CPU Time 0h:00m:00s, Memory Used current: 106MB peak: 107MB)
+Running optimization stage 2 on waves .......
+@W: CL138 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Removing register 'wave_cnt' because it is only assigned 0 or its original value.
+@W: CL260 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Pruning register bit 31 of bit_cnt[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[12] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[13] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[14] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[15] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[16] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[17] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[18] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[19] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[20] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[21] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[22] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[23] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[24] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[25] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[26] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[27] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[28] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[29] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[30] is always 0.
+@W: CL279 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Pruning register bits 30 to 12 of bit_cnt[30:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 2 on waves (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 107MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\GDS_QMOD\synwork\layer0.duruntime
+
+

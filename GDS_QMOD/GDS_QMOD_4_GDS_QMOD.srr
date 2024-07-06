@@ -1,0 +1,607 @@
+#Build: Synplify Pro (R) U-2023.03L-SP1, Build 153R, Aug 10 2023
+#install: C:\lscc\diamond\3.13\synpbase
+#OS: Windows 10 or later
+#Hostname: TYLER
+
+# Fri Jul  5 17:15:58 2024
+
+#Implementation: GDS_QMOD
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03L-SP1
+Install: C:\lscc\diamond\3.13\synpbase
+OS: Windows 10 or later
+Hostname: TYLER
+
+Implementation : GDS_QMOD
+Synopsys HDL Compiler, Version comp202303synp1, Build 155R, Built Aug 10 2023 09:42:17, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03L-SP1
+Install: C:\lscc\diamond\3.13\synpbase
+OS: Windows 10 or later
+Hostname: TYLER
+
+Implementation : GDS_QMOD
+Synopsys Verilog Compiler, Version comp202303synp1, Build 155R, Built Aug 10 2023 09:42:17, @
+
+@N|Running in 64-bit mode
+@I::"C:\lscc\diamond\3.13\synpbase\lib\lucent\machxo3lf.v" (library work)
+@I::"C:\lscc\diamond\3.13\synpbase\lib\lucent\pmi_def.v" (library work)
+@I::"C:\lscc\diamond\3.13\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\diamond\3.13\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.13\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv" (library work)
+Verilog syntax check successful!
+Selecting top level module waves
+@N: CG364 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":1:7:1:11|Synthesizing module waves in library work.
+Opening data file GDS_0_50_d15_35_d10_30_d10_27_1.0u_100k.csv from directory C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS
+Opening data file GDS_1_50_d15_35_d10_30_d10_27_1.0u_100k.csv from directory C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS
+Opening data file Qmod_1.0u_100k_2498.csv from directory C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS
+@W: CG532 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":20:4:20:10|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+@W: CG1340 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":28:12:28:19|Index into variable seq could be out of range ; a simulation mismatch is possible.
+Running optimization stage 1 on waves .......
+Finished optimization stage 1 on waves (CPU Time 0h:00m:00s, Memory Used current: 106MB peak: 107MB)
+Running optimization stage 2 on waves .......
+@W: CL138 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Removing register 'wave_cnt' because it is only assigned 0 or its original value.
+@W: CL260 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Pruning register bit 31 of bit_cnt[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[12] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[13] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[14] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[15] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[16] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[17] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[18] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[19] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[20] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[21] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[22] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[23] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[24] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[25] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[26] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[27] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[28] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[29] is always 0.
+@N: CL189 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Register bit bit_cnt[30] is always 0.
+@W: CL279 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":31:4:31:9|Pruning register bits 30 to 12 of bit_cnt[30:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 2 on waves (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 107MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\GDS_QMOD\synwork\layer0.duruntime
+
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 107MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Jul  5 17:16:00 2024
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03L-SP1
+Install: C:\lscc\diamond\3.13\synpbase
+OS: Windows 10 or later
+Hostname: TYLER
+
+Implementation : GDS_QMOD
+Synopsys Synopsys Netlist Linker, Version comp202303synp1, Build 155R, Built Aug 10 2023 09:42:17, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Jul  5 17:16:00 2024
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\GDS_QMOD\synwork\GDS_QMOD_4_GDS_QMOD_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 23MB peak: 23MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Jul  5 17:16:00 2024
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03L-SP1
+Install: C:\lscc\diamond\3.13\synpbase
+OS: Windows 10 or later
+Hostname: TYLER
+
+Implementation : GDS_QMOD
+Synopsys Synopsys Netlist Linker, Version comp202303synp1, Build 155R, Built Aug 10 2023 09:42:17, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Jul  5 17:16:02 2024
+
+###########################################################]
+Premap Report
+
+# Fri Jul  5 17:16:02 2024
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03L-SP1
+Install: C:\lscc\diamond\3.13\synpbase
+OS: Windows 10 or later
+Hostname: TYLER
+
+Implementation : GDS_QMOD
+Synopsys Lattice Technology Pre-mapping, Version map202303lat, Build 132R, Built Aug 31 2023 04:16:35, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 123MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 137MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\GDS_QMOD\GDS_QMOD_4_GDS_QMOD_scck.rpt 
+See clock summary report "C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\GDS_QMOD\GDS_QMOD_4_GDS_QMOD_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 137MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 137MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 143MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 144MB peak: 146MB)
+
+NConnInternalConnection caching is on
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 194MB peak: 195MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 194MB peak: 195MB)
+
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 194MB peak: 195MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 194MB peak: 195MB)
+
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 195MB peak: 195MB)
+
+
+mixed edge conversion for GCC is OFF
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 196MB peak: 196MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 196MB peak: 197MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 196MB peak: 197MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=240 on top level netlist waves 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 196MB peak: 197MB)
+
+
+
+Clock Summary
+******************
+
+          Start         Requested     Requested     Clock        Clock          Clock
+Level     Clock         Frequency     Period        Type         Group          Load 
+-------------------------------------------------------------------------------------
+0 -       waves|clk     100.0 MHz     10.000        inferred     (multiple)     14   
+=====================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+              Clock     Source        Clock Pin       Non-clock Pin     Non-clock Pin
+Clock         Load      Pin           Seq Example     Seq Example       Comb Example 
+-------------------------------------------------------------------------------------
+waves|clk     14        clk(port)     GDS.C           -                 -            
+=====================================================================================
+
+@W: MT529 :"c:\users\tyler_hyposvu\onedrive - uw-madison\research\iarpa\qmod_gds\waves.sv":31:4:31:9|Found inferred clock waves|clk which controls 14 sequential elements including bit_cnt[11:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 14 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@KP:ckid0_0       clk                 port                   14         bit_cnt[11:0]  
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+
+Summary of user generated gated clocks:
+0 user generated gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 197MB peak: 197MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 197MB peak: 198MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 198MB peak: 198MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 113MB peak: 199MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:02s cputime
+# Fri Jul  5 17:16:07 2024
+
+###########################################################]
+Map & Optimize Report
+
+# Fri Jul  5 17:16:07 2024
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03L-SP1
+Install: C:\lscc\diamond\3.13\synpbase
+OS: Windows 10 or later
+Hostname: TYLER
+
+Implementation : GDS_QMOD
+Synopsys Lattice Technology Mapper, Version map202303lat, Build 132R, Built Aug 31 2023 04:16:35, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 123MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 137MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 137MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 139MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 193MB peak: 193MB)
+
+@N: BZ173 :"c:\users\tyler_hyposvu\onedrive - uw-madison\research\iarpa\qmod_gds\waves.sv":38:20:38:31|ROM QMOD_2 (in view: work.waves(verilog)) mapped in logic.
+@N: MO106 :"c:\users\tyler_hyposvu\onedrive - uw-madison\research\iarpa\qmod_gds\waves.sv":38:20:38:31|Found ROM QMOD_2 (in view: work.waves(verilog)) with 2498 words by 1 bit.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 199MB peak: 211MB)
+
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+
+Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 200MB peak: 211MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 200MB peak: 211MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 201MB peak: 211MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 201MB peak: 211MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 201MB peak: 211MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 201MB peak: 211MB)
+
+@A: BN291 :"c:\users\tyler_hyposvu\onedrive - uw-madison\research\iarpa\qmod_gds\waves.sv":31:4:31:9|Boundary register GDS (in view: work.waves(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: FX211 |Packed ROM GDS_2_0 (12 input, 1 output) to Block SelectRAM 
+
+Finished preparing to map (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 202MB peak: 211MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 202MB peak: 211MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		     3.33ns		   8 /        13
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 202MB peak: 211MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 203MB peak: 211MB)
+
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 203MB peak: 211MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 203MB peak: 211MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 150MB peak: 211MB)
+
+Writing Analyst data base C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\GDS_QMOD\synwork\GDS_QMOD_4_GDS_QMOD_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 202MB peak: 211MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\GDS_QMOD\GDS_QMOD_4_GDS_QMOD.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:03s; Memory used current: 210MB peak: 211MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:03s; Memory used current: 210MB peak: 211MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:03s; Memory used current: 209MB peak: 211MB)
+
+@W: MT420 |Found inferred clock waves|clk with period 10.00ns. Please declare a user-defined clock on port clk.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Fri Jul  5 17:16:13 2024
+#
+
+
+Top view:               waves
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 2.792
+
+                   Requested     Estimated     Requested     Estimated               Clock        Clock     
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group     
+------------------------------------------------------------------------------------------------------------
+waves|clk          100.0 MHz     138.7 MHz     10.000        7.208         2.792     inferred     (multiple)
+============================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------
+Starting   Ending     |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------
+waves|clk  waves|clk  |  10.000      2.792  |  No paths    -      |  No paths    -      |  No paths    -    
+============================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: waves|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+               Starting                                         Arrival          
+Instance       Reference     Type        Pin     Net            Time        Slack
+               Clock                                                             
+---------------------------------------------------------------------------------
+bit_cnt[3]     waves|clk     FD1S3IX     Q       bit_cnt[3]     1.108       2.792
+bit_cnt[4]     waves|clk     FD1S3IX     Q       bit_cnt[4]     1.108       2.792
+bit_cnt[5]     waves|clk     FD1S3IX     Q       bit_cnt[5]     1.148       3.841
+bit_cnt[1]     waves|clk     FD1S3IX     Q       bit_cnt[1]     1.108       3.881
+bit_cnt[2]     waves|clk     FD1S3IX     Q       bit_cnt[2]     1.108       3.881
+bit_cnt[8]     waves|clk     FD1S3IX     Q       bit_cnt[8]     1.180       4.825
+bit_cnt[6]     waves|clk     FD1S3IX     Q       bit_cnt[6]     1.148       4.857
+bit_cnt[7]     waves|clk     FD1S3IX     Q       bit_cnt[7]     1.148       4.857
+bit_cnt[0]     waves|clk     FD1S3IX     Q       bit_cnt[0]     1.108       4.979
+bit_cnt[9]     waves|clk     FD1S3IX     Q       bit_cnt[9]     1.148       5.653
+=================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                Starting                                             Required          
+Instance        Reference     Type         Pin     Net               Time         Slack
+                Clock                                                                  
+---------------------------------------------------------------------------------------
+GDS_2_0_0       waves|clk     SP8KC        CE      GDS7              8.247        2.792
+QMOD_0io        waves|clk     OFS1P3DX     SP      GDS7              9.528        4.073
+bit_cnt[11]     waves|clk     FD1S3IX      D       bit_cnt_1[11]     9.894        4.979
+bit_cnt[9]      waves|clk     FD1S3IX      D       bit_cnt_1[9]      9.894        5.122
+bit_cnt[10]     waves|clk     FD1S3IX      D       bit_cnt_1[10]     9.894        5.122
+bit_cnt[7]      waves|clk     FD1S3IX      D       bit_cnt_1[7]      9.894        5.265
+bit_cnt[8]      waves|clk     FD1S3IX      D       bit_cnt_1[8]      9.894        5.265
+bit_cnt[5]      waves|clk     FD1S3IX      D       bit_cnt_1[5]      9.894        5.407
+bit_cnt[6]      waves|clk     FD1S3IX      D       bit_cnt_1[6]      9.894        5.407
+bit_cnt[3]      waves|clk     FD1S3IX      D       bit_cnt_1[3]      9.894        5.550
+=======================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            1.753
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.247
+
+    - Propagation time:                      5.455
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     2.792
+
+    Number of logic level(s):                4
+    Starting point:                          bit_cnt[3] / Q
+    Ending point:                            GDS_2_0_0 / CE
+    The start point is clocked by            waves|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CK
+    The end   point is clocked by            waves|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                  Pin      Pin               Arrival     No. of    
+Name               Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------
+bit_cnt[3]         FD1S3IX      Q        Out     1.108     1.108 r     -         
+bit_cnt[3]         Net          -        -       -         -           3         
+GDS7lto5_2         ORCALUT4     A        In      0.000     1.108 r     -         
+GDS7lto5_2         ORCALUT4     Z        Out     1.089     2.197 f     -         
+N_5_1              Net          -        -       -         -           2         
+GDS7lto5           ORCALUT4     A        In      0.000     2.197 f     -         
+GDS7lto5           ORCALUT4     Z        Out     1.017     3.213 f     -         
+GDS7lt8            Net          -        -       -         -           1         
+GDS7lto8           ORCALUT4     A        In      0.000     3.213 f     -         
+GDS7lto8           ORCALUT4     Z        Out     1.089     4.302 f     -         
+GDS7lt10           Net          -        -       -         -           2         
+GDS7lto11          ORCALUT4     A        In      0.000     4.302 f     -         
+GDS7lto11          ORCALUT4     Z        Out     1.153     5.455 f     -         
+GDS7               Net          -        -       -         -           3         
+GDS_2_0_0          SP8KC        CE       In      0.000     5.455 f     -         
+=================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:03s; Memory used current: 210MB peak: 211MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:03s; Memory used current: 210MB peak: 211MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo3lf_6900c-5
+
+Register bits: 13 of 54912 (0%)
+PIC Latch:       0
+I/O cells:       3
+Block Rams : 1 of 240 (0%)
+
+
+Details:
+CCU2D:          7
+FD1S3IX:        12
+GSR:            1
+IB:             1
+INV:            1
+OB:             2
+OFS1P3DX:       1
+ORCALUT4:       7
+PUR:            1
+SP8KC:          1
+VHI:            1
+VLO:            1
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:04s; Memory used current: 71MB peak: 211MB)
+
+Process took 0h:00m:06s realtime, 0h:00m:04s cputime
+# Fri Jul  5 17:16:14 2024
+
+###########################################################]
