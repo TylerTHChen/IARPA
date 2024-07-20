@@ -46,14 +46,14 @@ plot(square(2 * pi * (0:0.01:1) + pi, d1))
 
 % saving results
 GDS_1 = [sym1];
-fname = sprintf('GDS_1_%d_d%d_%d_d%d_%d_d%d_%d_%.1fu_%dk.csv', ...
+fname = sprintf('GDS_1_%d_d%d_%d_d%d_%d_d%d_%d_%.1fu_%dk.txt', ...
     round(d1), round(p_d1*100), round(d2), round(p_d2*100), ...
     round(d3), round(p_d2*100), round(d4), ...
     T0*1e6, round(fsym/1e3));
 writematrix(GDS_1',fname)
 
 GDS_0 = [sym0];
-fname = sprintf('GDS_0_%d_d%d_%d_d%d_%d_d%d_%d_%.1fu_%dk.csv', ...
+fname = sprintf('GDS_0_%d_d%d_%d_d%d_%d_d%d_%d_%.1fu_%dk.txt', ...
     round(d1), round(p_d1*100), round(d2), round(p_d2*100), ...
     round(d3), round(p_d2*100), round(d4), ...
     T0*1e6, round(fsym/1e3));
@@ -62,7 +62,7 @@ writematrix(GDS_0',fname)
 % Q modulation control signal
 Qmod = [ones(length(x1) + length(x2) + length(x3) + length(x4), 1); zeros(length(x0), 1)];
 Qmod2 = [Qmod];
-fname = sprintf('Qmod_%.1fu_%dk_%d.csv', T0*1e6, round(fsym/1e3), length(Qmod2));
+fname = sprintf('Qmod_%.1fu_%dk_%d.txt', T0*1e6, round(fsym/1e3), length(Qmod2));
 writematrix(Qmod2,fname);
 
 % length(Qmod)
@@ -75,6 +75,38 @@ legend('Symbol 0', 'Symbol 1');
 subplot(2, 1, 2); plot(tp, Qmod, 'k'); ylim([-0.2,1.2]); 
 xlabel('Time (us)'); title('Q-mod signal');
 
+% Convert the array to a string
+bit0_string = num2str(GDS_0);
+
+% Remove spaces from the string
+bit0_string = bit0_string(bit0_string ~= ' ');
+
+% Write the string to a text file
+fileID = fopen('bit0.txt', 'w');
+fprintf(fileID, '%s', bit0_string);
+fclose(fileID);
+
+% Convert the array to a string
+bit1_string = num2str(GDS_1);
+
+% Remove spaces from the string
+bit1_string = bit1_string(bit1_string ~= ' ');
+
+% Write the string to a text file
+fileID = fopen('bit1.txt', 'w');
+fprintf(fileID, '%s', bit1_string);
+fclose(fileID);
+
+% Convert the array to a string
+QMOD_data = num2str(Qmod2);
+
+% Remove spaces from the string
+QMOD_data = QMOD_data(QMOD_data ~= ' ');
+
+% Write the string to a text file
+fileID = fopen('QMOD.txt', 'w');
+fprintf(fileID, '%s', QMOD_data);
+fclose(fileID);
 % legend('GDS Symbol 0', 'GDS Symbol 1', 'Q mod');
 
 % 

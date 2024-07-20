@@ -28,6 +28,7 @@
 				<IOState>HighZ</IOState>
 				<PreloadLength>664</PreloadLength>
 				<IOVectorData>0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF</IOVectorData>
+				<SVFProcessor>SVF Processor</SVFProcessor>
 				<Usercode>0x00000000</Usercode>
 				<AccessMode>FLASH</AccessMode>
 			</Option>
@@ -44,7 +45,7 @@
 	</ProjectOptions>
 	<CableOptions>
 		<CableName>USB2</CableName>
-		<PortAdd>FTUSB-1</PortAdd>
-		<USBID>Lattice XO3LF Starter Kit B Location 0001 Serial B</USBID>
+		<PortAdd>FTUSB-0</PortAdd>
+		<USBID>Lattice XO3LF Starter Kit A Location 0000</USBID>
 	</CableOptions>
 </ispXCF>

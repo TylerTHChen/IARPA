@@ -1,0 +1,50 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03L-SP1
+Install: C:\lscc\diamond\3.13\synpbase
+OS: Windows 10 or later
+Hostname: TYLER
+
+Implementation : GDS_QMOD
+Synopsys HDL Compiler, Version comp202303synp1, Build 155R, Built Aug 10 2023 09:42:17, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03L-SP1
+Install: C:\lscc\diamond\3.13\synpbase
+OS: Windows 10 or later
+Hostname: TYLER
+
+Implementation : GDS_QMOD
+Synopsys Verilog Compiler, Version comp202303synp1, Build 155R, Built Aug 10 2023 09:42:17, @
+
+@N|Running in 64-bit mode
+@I::"C:\lscc\diamond\3.13\synpbase\lib\lucent\machxo3lf.v" (library work)
+@I::"C:\lscc\diamond\3.13\synpbase\lib\lucent\pmi_def.v" (library work)
+@I::"C:\lscc\diamond\3.13\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\diamond\3.13\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.13\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv" (library work)
+@E: CG243 :"C:\Users\tyler_hyposvu\OneDrive - UW-Madison\Research\IARPA\QMOD_GDS\waves.sv":3:4:3:9|Expecting ) or comma delimiter
+1 syntax errors
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Jul  5 17:10:56 2024
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Jul  5 17:10:56 2024
+
+###########################################################]

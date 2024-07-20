@@ -1,0 +1,6 @@
+xpm_cdc.sv,systemverilog,xpm,../../../../../../../../Xilinx/Vivado/2024.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv,incdir="../../../QMOD_GDS_Nexy.gen/sources_1/ip/clk_wiz_0_1"
+xpm_VCOMP.vhd,vhdl,xpm,../../../../../../../../Xilinx/Vivado/2024.1/data/ip/xpm/xpm_VCOMP.vhd,incdir="../../../QMOD_GDS_Nexy.gen/sources_1/ip/clk_wiz_0_1"
+clk_wiz_0_clk_wiz.v,verilog,xil_defaultlib,../../../QMOD_GDS_Nexy.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0_clk_wiz.v,incdir="../../../QMOD_GDS_Nexy.gen/sources_1/ip/clk_wiz_0_1"
+clk_wiz_0.v,verilog,xil_defaultlib,../../../QMOD_GDS_Nexy.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0.v,incdir="../../../QMOD_GDS_Nexy.gen/sources_1/ip/clk_wiz_0_1"
+waves.sv,systemverilog,xil_defaultlib,../../../../../../OneDrive - UW-Madison/Research/IARPA/QMOD_GDS/waves.sv,incdir="../../../QMOD_GDS_Nexy.gen/sources_1/ip/clk_wiz_0_1"
+glbl.v,Verilog,xil_defaultlib,glbl.v
